@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: curator
+  namespace: elasticsearch-curator
+spec:
+  selector:
+    matchLabels:
+      app: sfcurator
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: curator
+    spec:
+      containers:
+      - name: curator
+        image: ${image}
