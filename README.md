@@ -30,3 +30,6 @@ $ change your deployment.yml file (Replace your image)
 $ kubectl create -f namespace.yml
 $ kubectl create -f deployment.yml -n elasticsearch-curator
 ```
+
+by Yusuf CAN
+developer at siemens
