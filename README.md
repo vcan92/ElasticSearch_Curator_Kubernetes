@@ -1,6 +1,6 @@
 # Elastic Search Curator Kubernetes Deployment
 
-You can deploy ElasticSearch Curator and Crontab on your kubernetes environment with this repository. This repository delete your Elastic Search indices older than 30 days.(based on index name).
+# You can deploy ElasticSearch Curator and Crontab on your kubernetes environment with this repository. This repository delete your Elastic Search indices older than 30 days.(based on index name).
 ## About Elastic Search Curator
 
 Elasticsearch Curator helps you curate, or manage, your Elasticsearch indices and snapshots by:
