@@ -32,4 +32,4 @@ $ kubectl create -f deployment.yml -n elasticsearch-curator
 ```
 
 by Yusuf CAN
-developer at siemens
+developer at siemenss
